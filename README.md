@@ -1,4 +1,4 @@
-sudo apt-get install build-essential automake libtool
+apt-get install build-essential automake libtool git
 
 git clone https://github.com/Long-live-shadowsocks/ShadowVPN.git
 
@@ -10,4 +10,6 @@ git submodule update --init
 
 make 
 
-sudo make install
+make install
+
+vi /etc/shadowvpn/server.conf
