@@ -13,3 +13,5 @@ make
 make install
 
 vi /etc/shadowvpn/server.conf
+
+shadowvpn -c /etc/shadowvpn/server.conf -s start
